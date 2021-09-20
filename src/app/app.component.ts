@@ -15,11 +15,15 @@ interface Componente{
 export class AppComponent {
   
   componentes : Componente[] =[
-
     {
       icon: 'sunny-outline', 
       name: 'Notcias', 
       redirecTo: '/noticias'
+    },
+    {
+      icon: 'person-remove-outline', 
+      name: 'Registrarse', 
+      redirecTo: '/register'
     },
   ]
 

@@ -21,6 +21,11 @@ export class InicioPage implements OnInit {
       name: 'Noticias', 
       redirecTo: '/noticias'
     },
+    {
+      icon: 'person-remove-outline', 
+      name: 'Registrarse', 
+      redirecTo: '/register'
+    },
   ]
   constructor(private menuController: MenuController) { }
 
