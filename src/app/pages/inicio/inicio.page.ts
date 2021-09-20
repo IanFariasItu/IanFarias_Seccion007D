@@ -17,14 +17,9 @@ export class InicioPage implements OnInit {
 
   componentes : Componente[] =[
     {
-      icon: 'paw-outline',
-      name: 'Action Sheet', 
-      redirecTo: '/action-sheet'
-    },
-    {
       icon: 'sunny-outline', 
-      name: 'Alert', 
-      redirecTo: '/alert'
+      name: 'Noticias', 
+      redirecTo: '/noticias'
     },
   ]
   constructor(private menuController: MenuController) { }
