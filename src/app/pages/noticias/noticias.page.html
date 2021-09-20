@@ -7,30 +7,59 @@
           mode="ios">
       </ion-back-button>
     </ion-buttons>
-    <ion-title>Noticias</ion-title>
+    <ion-title>Noticias de juegos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-<ion-button>Default</ion-button>
+<ion-content class="background">
+    <ion-card>
+      <ion-card-header>
+        <ion-img src="/assets/sheltered2.jpg"></ion-img>
+        <ion-card-title>Proximamente</ion-card-title>
+        <ion-card-subtitle>Fecha estreno: 21-09-2021</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Este juego consiste en sobrevivir a una apocalipsis nuclear con graficos 2D.
+      </ion-card-content>
+      <ion-item>
+        <ion-button fill="clear" shape="round" slot="end" href="https://store.steampowered.com/app/1289380/Sheltered_2/">
+          <ion-icon slot="start" name="navigate-outline" ></ion-icon>         
+        </ion-button>
+      </ion-item>
 
-<ion-button href="www.google.comss">Google</ion-button>
+      <ion-card-header>
+        <ion-img src="/assets/aftermath.jpg"></ion-img>
+        <ion-card-title>Proximamente</ion-card-title>
+        <ion-card-subtitle>Fecha estreno: 21-09-2021</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Juego de accion que consiste en luchar contra hordas de zombies.
+      </ion-card-content>
 
-<!-- Colors -->
-<ion-button color="primary">Primary</ion-button>
+      <ion-item>
+        <ion-button fill="clear" shape="round" slot="end" href="https://store.steampowered.com/app/699130/World_War_Z_Aftermath/">
+          <ion-icon slot="start" name="navigate-outline"></ion-icon>         
+        </ion-button>
+      </ion-item>
 
-<br>
+      <ion-card-header>
+        <ion-img src="/assets/minec2.jpg"></ion-img>
+        <ion-card-title>Proximamente</ion-card-title>
+        <ion-card-subtitle>Fecha estreno: 29-09-2021</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Juego de mazmorras en el cual deberas luchar con enemigos clasicos de Minecraft.
+      </ion-card-content>
+      <ion-item>
+        <ion-button fill="clear" shape="round" slot="end" href="https://store.steampowered.com/app/1672970/Minecraft_Dungeons/">
+          <ion-icon slot="start" name="navigate-outline"></ion-icon>         
+        </ion-button>
+      </ion-item>
 
-<!-- Expand -->
-<ion-button expand="full">Full Button</ion-button>
-<ion-button expand="block">Block Button</ion-button>
-
-<ion-button (click)="presentAlertPrompt()" expand="full" color="danger" shape="round">
-  Ingresando datos
-</ion-button>
-
-<ion-button (click)="presentAlert()" expand="full" color="danger" shape="round">
-  PresentAlert
-</ion-button>
+    </ion-card>
+  
 
 </ion-content>
